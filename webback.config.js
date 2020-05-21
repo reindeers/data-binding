@@ -9,6 +9,6 @@ module.exports = {
   },
   devtool: 'inline-source-map',
   devServer: {
-   contentBase: './public',
+   contentBase: path.join(__dirname, 'public'),
   }
 };
